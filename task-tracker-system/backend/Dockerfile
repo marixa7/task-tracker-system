@@ -1,6 +1,5 @@
 # Базовый образ с Java 17
-FROM openjdk:17-jdk-slim
-
+FROM eclipse-temurin:17-jdk-jammy
 # Рабочая директория внутри контейнера
 WORKDIR /app
 
